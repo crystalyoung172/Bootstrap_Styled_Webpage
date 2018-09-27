@@ -1,0 +1,117 @@
+.bg {
+    background: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/professional-background-images-for-linkedin-6.jpg) no-repeat center center;
+    position: absolute;
+    width: 90%;
+    height: 500px; /*same height as jumbotron */
+    top:0;
+    left:0;
+    z-index: -1;
+}
+  
+.jumbotron {
+    height: 500px;
+    text-shadow: #444 0 1px 1px;
+    background:transparent;
+    margin-bottom: 0px;
+    background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/professional-background-images-for-linkedin-6.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    margin-top: 1%;
+}
+
+/* background in the body */
+body {
+    background-color: hsl(205, 86%, 25%);
+}
+
+/* title page on jumbotron */
+h1 {
+    margin-top: 5%;
+    font-size: 500%;
+    font-family: cursive;
+}
+
+/* About Me */
+h2 {
+  font-size: 200%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  position: relative;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 9%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+
+/* Linkedin Picture */
+.circular--square {
+    border-top-left-radius: 30% 30%;
+    border-top-right-radius: 30% 30%;
+    border-bottom-right-radius: 30% 30%;
+    border-bottom-left-radius: 30% 30%;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+/* Paragragh */
+p {
+    font-size: 150%;
+    float: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5%;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUXFRUVFxUVFRUVFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0NDisZFRkrKzcrLS0tLTc3Ny0rKy03Ky0rLSs3LSstLSstNzcrKystLS0rKy0tKystKystKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAf/xAAbEAEBAQEBAQEBAAAAAAAAAAAAAQIREjEhQf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/APTcRcicxccrZ5ytOY01WgTNXIMRfGpApFeejiuKgpwcXFQDhjihwqcHAKAzgJ4qQUpALhqhWAkHwuAVpdOwQCsTxfU1BFpKtQiov0LsTqIJqKrgqKyqK11E2M0Z2FVo1EGO4hrYixFdEi4S8NIcXmfCkaZagci4VNpD4ooFQ4rqZVyqCA4AHDKGBQ7RwgPolAmQOn1IAUlcKgmgyoEmxXUoFYirtTYAsRVdKxFZ+eFa00ixlUaRV+U6SjOp1F6TWRkmxppGqK6IvNKLjURUXlHF5jUD9LkSMxUV1VhZi1QSHB05FDAABUggoAoOmAkV0uCwBwQUQChHS4Ag4ZAXC4eiBFynWWqbEGZaq7E6RUWoqqlFRalVJkRYVWz0gjURY09M6g6MtZWcXI1BpFdRIrrQqRUiZVdVKrJwsLVAqFIpQDhgB0jMEnaOADgAgC/h9TR0Dg70rBACVDoIPp1OgKl0yoJtLVO1F0gemdp9TWVKM/TSstRKpWorSIrIiorTSLEHRloyy0y1BUqolcaQ4uFmK4pVQWiGqCXqslFSqAuHBkCiok5QFpkAHTSfQAggkAylPhUD6C6AFTadTJQFFKnATYirtTUGdn6WlWJ0yqIizrXibEqo4hrWe0ois+NbGfGRrmrxWeV5rUGqs1nlbQ19HKzi6qNKERcVFCUorig4cTTAxwhQE0aZDAHwDoFYOiiAcopQwHSFKgZdBAKnp2kgRU+lsE9RaqorNUup0fSRU6qYekVAtVF0dZ9ZHRhcZKl+KNZlUiJpUaF4WzlXFiKjSMsxo1EXmjqZVKGKUMCOEYGQADoI6A6AdAgmqAFaBYCejpWDgGk4ECpdOs9AKz0VpVhRU+halFLWk6p2JtQTpnaus9xBvNKzWeb+NIo0yrqIrNUXFSo9K60NJVdZTRzSo1lV1Eo6qL6crOVXQV04UpqC0QAE04AB2gFKA4ovRUDLVL0V0ApU+l1Auip1pN0mqq1nR0rpBNTxXU6qKVqLT7/Ua0yH1OitK6QLTOqtR0VtK0lZRYjRSM0+qLXKzlVNKLOI6pRrFRnKvLSKsKlaJVRZAdBXodSJ9BZCHVAVKl6BRUvRdQFn9FTB0D9F6ToZTVFIWp9IHS6m6TIinam0aRtAbrP0qI0yBnadqNVFFqelqp6K2mlzTCaadEa50vrKKmlRrKuVkuVRfF5rPNPqjWU/bOULo2CJVTSoapUj0ovolR6PoY0tHWfR6XUxdpdRaEMVam0jgplStT0DpWp1Us6qoml6KmgL0V0m1kO1O6OoukBEWi6R6Fw6i0Wo0ilqs1VKVVytc3oALlVKYaZXmrzQBDmlQwofVdIKKhmFD6XQFDo6AIXTgADo6ABCUwBa0i0BKC1N0AlVJWgIItT6IIC1n6AFidXibQEVPWd0AlVF0n3AEV//2Q==);
+}
+
+/* Title Of Favorite Things */
+h3 {
+    text-decoration: underline;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+/* Unordered List */
+ul {
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUXFRUVFxUVFRUVFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0NDisZFRkrKzcrLS0tLTc3Ny0rKy03Ky0rLSs3LSstLSstNzcrKystLS0rKy0tKystKystKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAf/xAAbEAEBAQEBAQEBAAAAAAAAAAAAAQIREjEhQf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/APTcRcicxccrZ5ytOY01WgTNXIMRfGpApFeejiuKgpwcXFQDhjihwqcHAKAzgJ4qQUpALhqhWAkHwuAVpdOwQCsTxfU1BFpKtQiov0LsTqIJqKrgqKyqK11E2M0Z2FVo1EGO4hrYixFdEi4S8NIcXmfCkaZagci4VNpD4ooFQ4rqZVyqCA4AHDKGBQ7RwgPolAmQOn1IAUlcKgmgyoEmxXUoFYirtTYAsRVdKxFZ+eFa00ixlUaRV+U6SjOp1F6TWRkmxppGqK6IvNKLjURUXlHF5jUD9LkSMxUV1VhZi1QSHB05FDAABUggoAoOmAkV0uCwBwQUQChHS4Ag4ZAXC4eiBFynWWqbEGZaq7E6RUWoqqlFRalVJkRYVWz0gjURY09M6g6MtZWcXI1BpFdRIrrQqRUiZVdVKrJwsLVAqFIpQDhgB0jMEnaOADgAgC/h9TR0Dg70rBACVDoIPp1OgKl0yoJtLVO1F0gemdp9TWVKM/TSstRKpWorSIrIiorTSLEHRloyy0y1BUqolcaQ4uFmK4pVQWiGqCXqslFSqAuHBkCiok5QFpkAHTSfQAggkAylPhUD6C6AFTadTJQFFKnATYirtTUGdn6WlWJ0yqIizrXibEqo4hrWe0ois+NbGfGRrmrxWeV5rUGqs1nlbQ19HKzi6qNKERcVFCUorig4cTTAxwhQE0aZDAHwDoFYOiiAcopQwHSFKgZdBAKnp2kgRU+lsE9RaqorNUup0fSRU6qYekVAtVF0dZ9ZHRhcZKl+KNZlUiJpUaF4WzlXFiKjSMsxo1EXmjqZVKGKUMCOEYGQADoI6A6AdAgmqAFaBYCejpWDgGk4ECpdOs9AKz0VpVhRU+halFLWk6p2JtQTpnaus9xBvNKzWeb+NIo0yrqIrNUXFSo9K60NJVdZTRzSo1lV1Eo6qL6crOVXQV04UpqC0QAE04AB2gFKA4ovRUDLVL0V0ApU+l1Auip1pN0mqq1nR0rpBNTxXU6qKVqLT7/Ua0yH1OitK6QLTOqtR0VtK0lZRYjRSM0+qLXKzlVNKLOI6pRrFRnKvLSKsKlaJVRZAdBXodSJ9BZCHVAVKl6BRUvRdQFn9FTB0D9F6ToZTVFIWp9IHS6m6TIinam0aRtAbrP0qI0yBnadqNVFFqelqp6K2mlzTCaadEa50vrKKmlRrKuVkuVRfF5rPNPqjWU/bOULo2CJVTSoapUj0ovolR6PoY0tHWfR6XUxdpdRaEMVam0jgplStT0DpWp1Us6qoml6KmgL0V0m1kO1O6OoukBEWi6R6Fw6i0Wo0ilqs1VKVVytc3oALlVKYaZXmrzQBDmlQwofVdIKKhmFD6XQFDo6AIXTgADo6ABCUwBa0i0BKC1N0AlVJWgIItT6IIC1n6AFidXibQEVPWd0AlVF0n3AEV//2Q==);
+    height: 100%;
+    border-top-left-radius: 5% 5%;
+    border-top-right-radius: 5% 5%;
+    border-bottom-right-radius: 5% 5%;
+    border-bottom-left-radius: 5% 5%;
+}
+
+/* List Items */
+li {
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5%;
+}
+
+/* Video */
+.video {
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+/* Button */
+.button {
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+/* Linkedln Page */
+.LI-profile-badge {
+    margin-top: 10%;
+    margin-left: 30%;
+}
